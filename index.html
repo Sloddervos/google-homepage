@@ -1,0 +1,103 @@
+
+<head>
+    <style>
+ul{  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+Li{
+    display: inline;
+}
+  .footy{
+      position: absolute;
+      top: 90%;
+      font-size: 14px;
+  }
+  #carbon{
+      position: absolute;
+      top: 90%;
+      left: 35%;
+      font-size: 14px;
+  }
+   .privacy{
+       position: absolute;
+       top: 92%;
+       left: 35%;
+       font-size: 14px;
+       margin: 10px;
+       padding: 10px;
+   } 
+  #container{
+        font-family: arial, sans-serif;
+        font-size: 13px;
+        color: rgba(0,0,0,.54);
+  } 
+    img{
+        position: absolute;
+        top: 120px;
+        left: 40%;
+
+    }
+    #searchbar{
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        
+    }
+    #search{
+            position: absolute;
+            top: 50%;
+            left: 38%;
+            padding: 5px;
+            margin: 5px;
+        }
+        #lucky{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: 5px;
+            padding: 5px;
+        }
+    </style>
+<html>
+    <main>
+    <div id="container">
+        <ul>
+            <li><a href="default.asp">About</a></li>
+            <li><a href="news.asp">Store</a></li>
+            <li style="float:right"><a href="contact.asp">Gmail</a></li>
+            <li style="float:right"><a href="about.asp">Images</a></li>
+          </ul> 
+    <img id="logo"src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+
+    <label for="searchbar"></label>
+    <input type="text" id="searchbar" name="searchbar" required
+           minlength="0" maxlength="180" size="50">
+           
+           
+           <button id="search"
+        type="button">
+    Google Search
+    </button>
+
+<button id="lucky"
+type="button">
+I'm Feeling Lucky
+</button>
+<div >
+    <footer>
+    <span class="footy">United Kingdom</span>
+    
+<span id="carbon"> Carbon Neutral Since 2007 </span>
+<div class="privacy">
+    <span> Privacy</span>
+    <span> Terms</span>
+    <span> Settings </span>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</main>
+</head>
+</html>
